@@ -7,6 +7,7 @@
     <title>@yield('title')</title>
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- Favicons
     ================================================== -->
