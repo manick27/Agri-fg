@@ -1,0 +1,31 @@
+.flex{
+    display: flex;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.mt-80{
+    margin-top: 100px;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.w-fit{
+    width: fit-content;
+}
+
+.text-center{
+    text-align: center;
+}
