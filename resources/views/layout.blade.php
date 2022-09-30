@@ -10,31 +10,31 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="{{ asset('asset/img/favicon.ico') }}" type="image/x-icon">
-    <link rel="apple-touch-icon" href="{{ asset('asset/img/apple-touch-icon.png') }}">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('asset/img/apple-touch-icon-72x72.png') }}">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('asset/img/apple-touch-icon-114x114.png') }}">
+    <link rel="shortcut icon" href="{{ url('asset/img/favicon.ico') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{ url('asset/img/apple-touch-icon.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ url('asset/img/apple-touch-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ url('asset/img/apple-touch-icon-114x114.png') }}">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('/asset/css/bootstrap.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('asset/fonts/font-awesome/css/font-awesome.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('asset/css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('asset/fonts/font-awesome/css/font-awesome.css') }}">
 
     <!-- Slider
     ================================================== -->
-    <link href="{{ asset('/asset/css/owl.carousel.css') }}" rel="stylesheet" media="screen">
-    <link href="{{ asset('/asset/css/owl.theme.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ url('asset/css/owl.carousel.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ url('asset/css/owl.theme.css') }}" rel="stylesheet" media="screen">
 
     <!-- Stylesheet
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('/asset/css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/asset/css/nivo-lightbox/nivo-lightbox.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('/asset/css/nivo-lightbox/default.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('asset/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('asset/css/nivo-lightbox/nivo-lightbox.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('asset/css/nivo-lightbox/default.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
 
     <!-- Mon style
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('/asset/css/more.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url('asset/css/more.css') }}">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -98,15 +98,15 @@
     @livewireScripts
 
 
-    {{-- <script type="text/javascript" src="{{ asset('asset/js/jquery.1.11.1.js') }}"></script> --}}
-    <script type="text/javascript" src="{{ asset('/asset/js/bootstrap.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/SmoothScroll.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/nivo-lightbox.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/jquery.isotope.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/owl.carousel.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/jqBootstrapValidation.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/contact_me.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/asset/js/main.js') }}"></script>
+    {{-- <script type="text/javascript" src="{{ url('asset/js/jquery.1.11.1.js') }}"></script> --}}
+    <script type="text/javascript" src="{{ url('asset/js/bootstrap.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/SmoothScroll.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/nivo-lightbox.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/jquery.isotope.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/owl.carousel.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/jqBootstrapValidation.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/contact_me.js') }}"></script>
+    <script type="text/javascript" src="{{ url('asset/js/main.js') }}"></script>
 
 
 
