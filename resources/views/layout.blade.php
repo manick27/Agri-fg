@@ -34,7 +34,7 @@
 
     <!-- Mon style
     ================================================== -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('asset/css/more.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('//asset/css/more.css') }}">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -99,14 +99,14 @@
 
 
     {{-- <script type="text/javascript" src="{{ asset('asset/js/jquery.1.11.1.js') }}"></script> --}}
-    <script type="text/javascript" src="{{ asset('asset/js/bootstrap.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/SmoothScroll.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/nivo-lightbox.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/jquery.isotope.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/owl.carousel.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/jqBootstrapValidation.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/contact_me.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('asset/js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/bootstrap.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/SmoothScroll.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/nivo-lightbox.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/jquery.isotope.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/owl.carousel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/jqBootstrapValidation.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/contact_me.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('//asset/js/main.js') }}"></script>
 
 
 
