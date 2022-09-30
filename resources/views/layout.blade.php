@@ -98,15 +98,15 @@
     @livewireScripts
 
 
-    {{-- <script type="text/javascript" src="{{ secure_url('asset/js/jquery.1.11.1.js') }}"></script> --}}
-    <script type="text/javascript" src="{{ secure_url('asset/js/bootstrap.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/SmoothScroll.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/nivo-lightbox.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/jquery.isotope.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/owl.carousel.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/jqBootstrapValidation.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/contact_me.js') }}"></script>
-    <script type="text/javascript" src="{{ secure_url('asset/js/main.js') }}"></script>
+    {{-- <script type="text/javascript" src="{{ asset('asset/js/jquery.1.11.1.js') }}"></script> --}}
+    <script type="text/javascript" src="{{ asset('asset/js/bootstrap.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/SmoothScroll.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/nivo-lightbox.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/jquery.isotope.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/owl.carousel.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/jqBootstrapValidation.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/contact_me.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('asset/js/main.js') }}"></script>
 
 
 
