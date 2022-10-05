@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-    Login | Vision Bio
+    Login | Agri FG
 @endsection
 
 @section('content')
