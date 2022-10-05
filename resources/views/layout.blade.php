@@ -99,7 +99,7 @@
     @livewireScripts
 
 
-    <script type="text/javascript" src="{{ asset('asset/js/jquery.1.11.1.js') }}"></script>
+    {{-- <script type="text/javascript" src="{{ asset('asset/js/jquery.1.11.1.js') }}"></script> --}}
     <script type="text/javascript" src="{{ asset('asset/js/bootstrap.js') }}"></script>
     <script type="text/javascript" src="{{ asset('asset/js/SmoothScroll.js') }}"></script>
     <script type="text/javascript" src="{{ asset('asset/js/nivo-lightbox.js') }}"></script>
