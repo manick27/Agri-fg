@@ -22,7 +22,7 @@
           <li>
             <a href="{{ Route('admin.create.product') }}">
               <i class="fa fa-clipboard"></i>
-              <span>Ajouter un produit</span>
+              <span>Ajouter un plant</span>
               </a>
           </li>
 
@@ -74,9 +74,9 @@
               <div class="col-md-3 col-sm-3 mb">
                 <div class="darkblue-panel pn donut-chart">
                   <div class="darkblue-header">
-                    <h5>NOMBRE DE PRODUITS</h5>
+                    <h5>NOMBRE DE PLANTS</h5>
                   </div>
-                  <p class="mt" style="color:white;"><b>{{ $products->count() }}</b><br/># Produits</p>
+                  <p class="mt" style="color:white;"><b>{{ $products->count() }}</b><br/># PLANTS</p>
                 </div>
                 <!-- /grey-panel -->
               </div>

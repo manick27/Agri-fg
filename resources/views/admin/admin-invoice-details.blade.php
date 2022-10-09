@@ -69,12 +69,12 @@
             <div class="col-lg-10 col-lg-offset-1">
               <div class="invoice-body">
                 <div class="pull-left">
-                  <h1>CLINIC COMPUTER</h1>
+                  <h1>AGRI FG</h1>
                   <address>
-                <strong>Site de vente en ligne.</strong><br>
-                computerclinic43@email.com<br>
-                Dschang, Cameroun<br>
-                <abbr title="Phone">Tel : </abbr> +(237) 676293719
+                <strong>Site d'exposition des plants agricole'.</strong><br>
+                gerardbogning@gmail.com<br>
+                Njobe - Pedja, Cameroun<br>
+                <abbr title="Phone">Tel : </abbr> +(237) 675 186 673
               </address>
                 </div>
                 <!-- /pull-left -->

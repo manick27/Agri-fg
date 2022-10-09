@@ -1,7 +1,7 @@
 @extends('admin.admin-menu-footer')
 
 @section('title')
-    Admin - Cart | Clinic Computer
+    Admin - Cart | AGRI FG
 @endsection
 
 @section('aside')
@@ -22,7 +22,7 @@
           <li>
             <a href="{{ Route('admin.create.product') }}">
               <i class="fa fa-clipboard"></i>
-              <span>Ajouter un produit</span>
+              <span>Ajouter un Plant</span>
               </a>
           </li>
 
@@ -99,7 +99,7 @@
                                       <form method="GET" action="{{ route('admin.cart.delete', ['id' => $cart->id]) }}">
                                           @csrf
                                           <div class="modal-body">
-                                          <p>Voulez vous supprimmer ce produit du panier ?</p>
+                                          <p>Voulez vous supprimmer ce plant du panier ?</p>
 
                                           </div>
 
@@ -149,7 +149,7 @@
       </div>
     @endif
     <!-- /row -->
-        <h3><i class="fa fa-angle-right"></i> Ajoutez les produits au panier</h3>
+        <h3><i class="fa fa-angle-right"></i> Ajoutez les plants au panier</h3>
         <div class="row mb">
           <!-- page start-->
           <div class="content-panel">
@@ -176,12 +176,6 @@
                           <td>{{ $product->type}}</td>
                           <td>{{ $product->price}}</td>
                           <td>{{ $product->quantity}}</td>
-                          <td>@if($product->furnisher != null)
-                            {{ $product->furnisher->name}}
-                            @else
-                              Auccun fournisseur
-                            @endif
-                          </td>
                           <td>
                             <form method="GET" action="{{ route('admin.add.cart', ['id' => $product->id]) }}">
                                 @csrf

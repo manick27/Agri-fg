@@ -102,9 +102,9 @@
                     <th>#</th>
                     <th><i class="fa fa-bars"></i>Nom</th>
                     <th><i class="fa fa-bars"></i>Type/Categorie</th>
-                    <th><i class="fa fa-list"></i>Prix</th>
+                    {{-- <th><i class="fa fa-list"></i>Prix</th>
                     <th><i class="fa fa-list"></i>Quantité</th>
-                    <th><i class="fa fa-list"></i>Fournisseur</th>
+                    <th><i class="fa fa-list"></i>Fournisseur</th> --}}
                     <th><i class="fa fa-list"></i>Actions</th>
                 </tr>
             </thead>
@@ -116,14 +116,8 @@
                         </td>
                         <td>{{ $product->title}}</td>
                         <td>{{ $product->type}}</td>
-                        <td>{{ $product->price}}</td>
-                        <td>{{ $product->quantity}}</td>
-                        <td>@if($product->furnisher != null)
-                            {{ $product->furnisher->name}}
-                            @else
-                              Auccun fournisseur
-                            @endif
-                          </td>
+                        {{-- <td>{{ $product->price}}</td>
+                        <td>{{ $product->quantity}}</td> --}}
                         <td>
                             <a><button class="btn btn-success btn-xs"><i class="fa fa-check"></i> details</button></a>
                             @if(Auth::user()->is_super_admin == 1)

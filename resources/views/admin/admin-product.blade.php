@@ -117,12 +117,6 @@
                           <td>{{ $product->type}}</td>
                           <td>{{ $product->price}}</td>
                           <td>{{ $product->quantity}}</td>
-                          <td>@if($product->furnisher != null)
-                            {{ $product->furnisher->name}}
-                            @else
-                              Auccun fournisseur
-                            @endif
-                          </td>
                           <td>
                               <a><button class="btn btn-success btn-xs"><i class="fa fa-check"></i></button></a>
                               <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>

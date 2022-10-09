@@ -79,47 +79,38 @@
                     <label for="cname" class="control-label col-lg-2">Selectionner le type / categoris <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <select name="type" required>
-                                <option value="1" @if($product->type == "LAPTOP") selected @endif>Laptop</option>
+                                {{-- <option value="1" @if($product->type == "LAPTOP") selected @endif>Laptop</option>
                                 <option value="2" @if($product->type == "DESKTOP") selected @endif>Desktop</option>
-                                <option value="3" @if($product->type == "ACCESSOIRES") selected @endif>Accessoires</option>
-                                <!-- <option value="3">Audio</option>    -->
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="cname" class="control-label col-lg-2">Selectionner le fournisseur <span class="text-danger">*</span></label>
-                    <div class="col-lg-10">
-                        <select id="furnisher" name="furnisher" required>
-                        <option value="0" @if($product->furnisher_id == null) selected @endif>Auccun Fournisseur</option>
-                            @if($product->furnisher_id != null)
-                                @foreach ($furnishers as $furnisher)
-                                    <option value="{{ $furnisher->id }}" @if($product->furnisher_id == $furnisher->id) selected @endif>{{ $furnisher->name }} / {{ $furnisher->phone }}</option>
-                                @endforeach
-                            @endif
+                                <option value="3" @if($product->type == "ACCESSOIRES") selected @endif>Accessoires</option> --}}
+                                <option value="1" @if($product->type == "1") selected @endif>Pépinières-semencière</option>
+                                <option value="2" @if($product->type == "2") selected @endif>Bananier-plantain</option>
+                                <option value="3" @if($product->type == "3") selected @endif>Arbres fruitiers & Agrumes</option>
+                                <option value="4" @if($product->type == "4") selected @endif>Boutures</option>
+                                <option value="5" @if($product->type == "5") selected @endif>Graines</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="form-group ">
-                    <label for="cname" class="control-label col-lg-2">Nom du produit <span class="text-danger">*</span></label>
+                    <label for="cname" class="control-label col-lg-2">Nom du Plant <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <input class=" form-control" id="name" name="title" minlength="2" value="{{ $product->title }}" type="text" required />
                     </div>
                 </div>
 
-                <div class="form-group ">
+                {{-- <div class="form-group ">
                     <label for="cname" class="control-label col-lg-2">Prix unitaire <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <input class=" form-control" id="cname" name="price" type="number"  value="{{ $product->price }}" required />
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="form-group ">
+                {{-- <div class="form-group ">
                     <label for="cname" class="control-label col-lg-2">Quantité <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <input class=" form-control" id="cname" name="quantity" type="number"  value="{{ $product->quantity }}" required/>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="form-group ">
                     <label for="ccomment" class="control-label col-lg-2">Description <span class="text-danger">*</span></label>
@@ -154,8 +145,8 @@
 
                 <div class="form-group">
                     <div class="col-lg-offset-2 col-lg-10">
-                        <button class="btn btn-theme" type="submit">Save</button>
-                       <a href="{{ Route('admin.inventory') }}" class="btn btn-theme04"> Cancel</a>
+                        <button class="btn btn-theme" type="submit">Enregistrer</button>
+                       <a href="{{ Route('admin.inventory') }}" class="btn btn-theme04"> Annuler</a>
                     </div>
                 </div>
             </form>
@@ -172,7 +163,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<script>
+{{-- <script>
     $(document).ready(function() {
 
 		$('#category').on('change', function() {
@@ -196,7 +187,7 @@
         }
       });
     }
-  </script>
+  </script> --}}
 
 
 

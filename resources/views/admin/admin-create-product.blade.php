@@ -1,7 +1,7 @@
 @extends('admin.admin-menu-footer')
 
 @section('title')
-    Admin - Create - Product | Clinic Computer
+    Admin - Create - Plant | AGRI FG
 @endsection
 
 @section('aside')
@@ -22,7 +22,7 @@
           <li>
             <a href="{{ Route('admin.create.product') }}">
               <i class="fa fa-clipboard"></i>
-              <span>Ajouter un produit</span>
+              <span>Ajouter un plant</span>
               </a>
           </li>
 
@@ -67,7 +67,7 @@
             </div>
         @endif
 
-    <h3><i class="fa fa-angle-right"></i>Creer un nouveau Produit</h3>
+    <h3><i class="fa fa-angle-right"></i>Creer un nouveau plants</h3>
     <div class="row mt">
         <div class="col-lg-12">
         <div class="form-panel">
@@ -78,45 +78,35 @@
                     <label for="cname" class="control-label col-lg-2">Selectionner le type / catégories <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <select name="type" required>
-                                <option value="1">Laptop</option>
-                                <option value="2">Desktop</option>
-                                <option value="3">Accessoires</option>
-                                <!-- <option value="3">Audio</option>    -->
-                        </select>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="cname" class="control-label col-lg-2">Selectionner le fournisseur <span class="text-danger">*</span></label>
-                    <div class="col-lg-10">
-                        <select id="furnisher" name="furnisher" required>
-                        <option value="0">Auccun Fournisseur</option>
-                            @foreach ($furnishers as $furnisher)
-                                <option value="{{ $furnisher->id }}">{{ $furnisher->name }} / {{ $furnisher->phone }}</option>
-                            @endforeach
+                                <option value="1">Pépinières-semencière</option>
+                                <option value="2">Bananier-plantain</option>
+                                <option value="3">Arbres fruitiers & Agrumes</option>
+                                <option value="4">Boutures</option>
+                                <option value="5">Graines</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="form-group ">
-                    <label for="cname" class="control-label col-lg-2">Nom du produit <span class="text-danger">*</span></label>
+                    <label for="cname" class="control-label col-lg-2">Nom du plant <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <input class=" form-control" id="name" name="title" minlength="2" type="text" required />
                     </div>
                 </div>
 
-                <div class="form-group ">
+                {{-- <div class="form-group ">
                     <label for="cname" class="control-label col-lg-2">Prix unitaire <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <input class=" form-control" id="cname" name="price" type="number" required />
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="form-group ">
+                {{-- <div class="form-group ">
                     <label for="cname" class="control-label col-lg-2">Quantité <span class="text-danger">*</span></label>
                     <div class="col-lg-10">
                         <input class=" form-control" id="cname" name="quantity" type="number" required/>
                     </div>
-                </div>
+                </div> --}}
 
                 <div class="form-group ">
                     <label for="ccomment" class="control-label col-lg-2">Description <span class="text-danger">*</span></label>
@@ -151,8 +141,8 @@
 
                 <div class="form-group">
                     <div class="col-lg-offset-2 col-lg-10">
-                        <button class="btn btn-theme" type="submit">Save</button>
-                        <button class="btn btn-theme04" type="reset">Cancel</button>
+                        <button class="btn btn-theme" type="submit">Enregistrer</button>
+                        <button class="btn btn-theme04" type="reset">Annuler</button>
                     </div>
                 </div>
             </form>

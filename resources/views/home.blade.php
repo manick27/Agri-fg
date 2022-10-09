@@ -74,7 +74,7 @@
             <div class="col-md-10 col-md-offset-1 section-title text-center">
                 <h2>Nos Services</h2>
                 <hr>
-                <p>Nous exposons au grand public plusieurs produits tels que:</p>
+                <p>Nous exposons au grand public plusieurs plants tels que:</p>
             </div>
             <div class="row">
                 <div class="col-md-3 text-center">
@@ -126,7 +126,7 @@
             <div class="section-title text-center center">
                 <h2>Notre Gallerie</h2>
                 <hr>
-                <p>Quelques images de nos Produits</p>
+                <p>Quelques images de nos plants</p>
             </div>
             <div class="categories">
                 <ul class="cat">
