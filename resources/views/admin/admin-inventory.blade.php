@@ -22,7 +22,7 @@
           <li>
             <a href="{{ Route('admin.create.product') }}">
               <i class="fa fa-clipboard"></i>
-              <span>Ajouter un produit</span>
+              <span>Ajouter un plant</span>
               </a>
           </li>
 
@@ -75,13 +75,13 @@
               <div class="col-md-4 profile-text mt mb centered">
                 <div class="right-divider hidden-sm hidden-xs">
                    <h4>{{ $products->count() }}</h4>
-                  <h6>Tout de produits</h6>
+                  <h6>Tout de plants</h6>
                 </div>
 
               </div>
               <div class="col-md-4 profile-text mt mb centered">
                 <p>
-                    <a href="/admin/create/product"><button class="btn btn-theme">Creer un nouveau produit</button></a>
+                    <a href="/admin/create/product"><button class="btn btn-theme">Creer un nouveau plant</button></a>
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@
 
         </div>
 
-    <h3><i class="fa fa-angle-right"></i>Inventaire de tout les produits</h3>
+    <h3><i class="fa fa-angle-right"></i>Inventaire de tous les plants</h3>
     <!-- row -->
     <div class="row mt">
         <div class="col-md-12">
@@ -100,8 +100,10 @@
             <thead>
                 <tr>
                     <th>#</th>
-                    <th><i class="fa fa-bars"></i>Nom</th>
                     <th><i class="fa fa-bars"></i>Type/Categorie</th>
+                    <th><i class="fa fa-bars"></i>Nom</th>
+                    <th><i class="fa fa-bars"></i>Description</th>
+                    <th><i class="fa fa-bars"></i>Apereçu</th>
                     {{-- <th><i class="fa fa-list"></i>Prix</th>
                     <th><i class="fa fa-list"></i>Quantité</th>
                     <th><i class="fa fa-list"></i>Fournisseur</th> --}}
@@ -114,8 +116,13 @@
                         <td>
                             <a>{{ $product->id }}</a>
                         </td>
-                        <td>{{ $product->title}}</td>
                         <td>{{ $product->type}}</td>
+                        <td>{{ $product->title}}</td>
+                        <td>{{ $product->description}}</td>
+                        <td>
+                            {{-- <img src="{{asset('a')}}" alt=""> --}}
+                            <img width="50px" src="{{ url("images/" .$product->main_image)}}">
+                        </td>
                         {{-- <td>{{ $product->price}}</td>
                         <td>{{ $product->quantity}}</td> --}}
                         <td>
@@ -127,12 +134,12 @@
                                       <div class="modal-content">
                                       <div class="modal-header">
                                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                          <h4 class="modal-title" id="myModalLabel">Supprimmer ce produit</h4>
+                                          <h4 class="modal-title" id="myModalLabel">Supprimmer ce plant</h4>
                                       </div>
                                       <form method="GET" action="{{ route('admin.product.delete', ['id' => $product->id]) }}">
                                           @csrf
                                           <div class="modal-body">
-                                          <p>Voulez vous supprimmer ce produit de la liste des produits ?</p>
+                                          <p>Voulez vous supprimmer ce plant de la liste des plants ?</p>
 
                                           </div>
 
