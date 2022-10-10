@@ -131,6 +131,11 @@
             </div>
             <div class="row">
                 <div class="portfolio-items">
+                    @if ($products->count() == 0)
+                        <div class="text-center" style="border: 2px solid gray; width: 100%; border-radius: 5px">
+                            <p>Aucun produit</p>
+                        </div>
+                    @else
                         @foreach ($products as $product)
                             <div class="col-sm-6 col-md-4 ">
                                 <div class="portfolio-item">
@@ -147,6 +152,7 @@
                                 </div>
                             </div>
                         @endforeach
+                    @endif
                 </div>
             </div>
         </div>
