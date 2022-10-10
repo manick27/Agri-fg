@@ -22,6 +22,10 @@ Route::get('/', [EcomController::class, 'home'])->name('home');
 
 Route::get('/home', [EcomController::class, 'home'])->name('home');
 
+// Route::get('/', [AdminController::class, 'getProducts'])->name('admin.products')->middleware(['admin']);
+
+// Route::get('/home', [AdminController::class, 'getProducts'])->name('admin.products')->middleware(['admin']);
+
 Route::get('/product/{id}/details', [EcomController::class, 'getDetails'])->name('product.details');
 
 Route::get('/checkout', [EcomController::class, 'getCheckout'])->name('checkout');
@@ -90,8 +94,6 @@ Route::get('/admin/create/product', [AdminController::class, 'getCreateProduct']
 
 Route::get('/admin/products', [AdminController::class, 'getProducts'])->name('admin.products')->middleware(['admin']);
 
-Route::post('/admin/create/furnisher', [AdminController::class, 'createFurnisher'])->name('admin.create.furnisher')->middleware(['admin']);
-
 Route::post('/admin/create/product', [AdminController::class, 'createProduct'])->name('admin.create.product')->middleware(['admin']);
 
 Route::get('/admin/inventory', [AdminController::class, 'getInventory'])->name('admin.inventory')->middleware(['admin']);
@@ -116,5 +118,5 @@ Route::get('/admin/edit/product/{id}', [AdminController::class, 'getEditProduct'
 
 Route::post('/admin/product/{id}/edit', [AdminController::class, 'editProduct'])->name('admin.product.edit')->middleware(['admin']);
 
-Route::get('/admin/user/{id}/details/', [AdminController::class, 'getUserDetails'])->name('admin.user.details')->middleware(['admin']);
+// Route::get('/admin/user/{id}/details/', [AdminController::class, 'getUserDetails'])->name('admin.user.details')->middleware(['admin']);
 

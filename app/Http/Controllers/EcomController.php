@@ -9,7 +9,7 @@ use App\Models\Product;
 
 class EcomController extends Controller
 {
-    function home(){
+    // function home(){
 
         // $cartItems = \Cart::getContent()->toArray();
 
@@ -25,7 +25,19 @@ class EcomController extends Controller
 
         //return view('welcome',compact('products', 'laptopProducts', 'desktopProducts', 'accessoriesProducts', 'bestProducts', 'cartItems'));
 
-        return view('home');
+        // return view('home');
+    // }
+
+    public function home(){
+
+        // $id = Auth::user()->id;
+
+        $products = Product::all()->reverse();
+
+        // $carts = Cart::where('type', 2)->get()->reverse();
+
+        // return view('home',compact('carts', 'products'));
+        return view('home', compact('products'));
     }
 
     function getDetails($id){
