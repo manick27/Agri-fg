@@ -132,7 +132,7 @@
             <div class="row">
                 <div class="portfolio-items">
                     @if ($products->count() == 0)
-                        <div class="text-center" style="border: 2px solid gray; width: 100%; border-radius: 5px">
+                        <div class="text-center" style="border: 2px solid #6aaf08; width: 100%; border-radius: 10px; padding-top: 20px; padding-bottom: 10px; color: #6aaf08">
                             <p>Aucun produit</p>
                         </div>
                     @else
