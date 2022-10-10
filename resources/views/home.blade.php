@@ -32,16 +32,11 @@
                     <div class="about-text">
                         <h2>Bienvenue sur <span>AGRI FG</span></h2>
                         <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
-                            Sed
-                            commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
-                            commodo nibh.
+                        <p>Nous sommes un groupe de Technicien d’agriculture tous formés dans les écoles d’agriculture au Cameroun et dans le métier depuis plus de 10 ans.
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.
-                            Sed
-                            commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam
-                            commodo nibh.
+                        <p>Notre mission est de valoriser et promouvoir les meilleurs techniques agricoles dans le Cameroun
                         </p>
+                        <p>Apporter à nos plantations des semences de qualité pour un meilleur rendement.</p>
                         <a href="#services" class="btn btn-custom btn-lg page-scroll">Voir les Services</a>
                     </div>
                 </div>
@@ -50,9 +45,7 @@
                     </div>
                     <div class="about-desc">
                         <h3>Nous en image</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-                            sedasd
-                            commodo nibh ante facilisis.</p>
+                        <p>Pour tous vos soucis agricoles, nous sommes là, nous cherchons à être près de vous et vous accompagner.</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-3">
@@ -60,9 +53,7 @@
                     </div>
                     <div class="about-desc">
                         <h3>Notre Logo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-                            sedasd
-                            commodo nibh ante.</p>
+                        <p>Comme notre logo le présente, la nautre au plus vert de sa forme fait partie de notre quotidien, donc le rendement est important.</p>
                     </div>
                 </div>
             </div>
