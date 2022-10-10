@@ -69,40 +69,34 @@
             </div>
             <div class="row">
                 <div class="col-md-3 text-center">
-                    <div class="service-media"> <img src="{{ asset('asset/img/services/service-1.jpg') }}" alt=" ">
+                    <div class="service-media"> <img src="{{ asset('asset/img/services/rejeton.jpeg') }}" alt=" ">
                     </div>
                     <div class="service-desc">
-                        <h3>Rejetons Plantain</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-                            sedasd
-                            commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                        <h3>Bananier-Plantain</h3>
+                        <p>Multiplication bananier-plantain (plan issu de fragment de tige(PIF), rejet bayonet).</p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <div class="service-media"> <img src="{{ asset('asset/img/services/service-2.jpg') }}" alt=" ">
+                    <div class="service-media"> <img src="{{ asset('asset/img/services/avocatier.jpeg') }}" alt=" ">
                     </div>
                     <div class="service-desc">
-                        <h3>Fruits</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-                            sedasd
-                            commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                        <h3>Arbres fruitiers et agrumes</h3>
+                        <p>Faites un avec les meilleurs fruits de la zone incontestée du Cameroun et vous ne serez pas du tout deçu du résultat.</p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <div class="service-media"> <img src="{{ asset('asset/img/services/service-3.jpg') }}" alt=" ">
+                    <div class="service-media"> <img src="{{ asset('asset/img/services/bouture.jpeg') }}" alt=" ">
                     </div>
                     <div class="service-desc">
-                        <h3>Bouture de manioc</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
-                            sedasd
-                            commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                        <h3>Boutures</h3>
+                        <p>les boutures (manioc, poivre, ignammes…) pour des tubercules montrulleux.</p>
                     </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <div class="service-media"> <img src="{{ asset('asset/img/services/service-4.jpg') }}" alt=" ">
+                    <div class="service-media"> <img src="{{ asset('asset/img/services/R.jpg') }}" alt=" ">
                     </div>
                     <div class="service-desc">
-                        <h3>Plants de macabo</h3>
+                        <h3>Installation et suivi des exploitations</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam
                             sedasd
                             commodo nibh ante facilisis bibendum dolor feugiat at.</p>
