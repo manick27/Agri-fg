@@ -103,6 +103,9 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-custom btn-lg page-scroll" style="border: 2px solid white">Voir tous les Services</a>
+            </div>
         </div>
     </div>
     <!-- Gallery Section -->

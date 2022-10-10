@@ -32,12 +32,6 @@ Route::get('/register', [UserController::class, 'register'])->name('register');
 
 Route::post('/authenticate', [LoginController::class, 'authenticate'])->name('authenticate');
 
-Route::get('/parent/registration/form/{parent_id}', function ($parent_id) {
-    return view('auth/parent-save', compact('parent_id'));
-});
-
-Route::post('/parent/save', [LoginController::class, 'parentSave'])->name('parent.save');
-
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::get('/help', function(){
